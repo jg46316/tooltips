@@ -12,6 +12,6 @@ export class HomePage {
   debounce:number = 0;
   duration:number = 3000;
   showArrow:boolean = true;
-  showToggleTooltip:boolean = false;
+  showToggleTooltip:boolean = true;
   tooltipEvent:TooltipEvent = TooltipEvent.CLICK;
 }
